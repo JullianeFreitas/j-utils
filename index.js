@@ -8,3 +8,5 @@ function createUUID() {
         return uuid;   
 }
 
+module.exports = createUUID; 
+
