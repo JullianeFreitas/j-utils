@@ -1,4 +1,4 @@
-module.exports = class Utils {
+export default class Utils {
   createUUID() {
     let dt = new Date().getTime();
     const uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
