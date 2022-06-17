@@ -24,35 +24,36 @@ Install automation-utils using npm
 
 ### Jump-to:
 - [generateUUID()](#generateUUID)
-- [generateRandomPerson()](#generateRandomPerson)
-- [generateRandomName()](#generateRandomName)
-- [generateRandomLastName()](#generateRandomLastName)
-- [generateRandomPhoneNumber()](#generateRandomPhoneNumber)
+- [person.generateRandomPerson()](#person.generateRandomPerson)
+- [person.generateRandomName()](#person.generateRandomName)
+- [person.generateRandomLastName()](#person.generateRandomLastName)
+- [person.generateRandomPhoneNumber()](#person.generateRandomPhoneNumber)
 
 ### generateUUID()
 
 Creates a Globally Unique Identifier and returns a string.
 
-### generateRandomPerson()
+### person.generateRandomPerson()
 
 Creates a random person with the following attributes:
 
-- personName: string
-- lastName: string
-- email: string
-- phone: string
+```javascript
+var person = {
+        personName: string,
+        lastName: string,
+        email: string (personName + lastName@gmail.com),
+        phone: string (xx xxxxx-xxxx),
+      };
+```
 
-### generateRandomName()
+### person.generateRandomName()
 
 Creates a random name and returns a string.
 
-### generateRandomLastName()
+### person.generateRandomLastName()
 
 Creates a random last name and returns a string.
 
-### generateRandomPhoneNumber()
+### person.generateRandomPhoneNumber()
 
 Creates a ranfom phone number and returns a string.
-
-
-
